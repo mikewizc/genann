@@ -63,7 +63,7 @@ void load_data() {
             exit(1);
         }
 
-        /* printf("Data point %d is %f %f %f %f  ->   %f %f %f\n", i, p[0], p[1], p[2], p[3], c[0], c[1], c[2]); */
+        printf("Data point %d is %f %f %f %f  ->   %f %f %f\n", i, p[0], p[1], p[2], p[3], c[0], c[1], c[2]);
     }
 
     fclose(in);
